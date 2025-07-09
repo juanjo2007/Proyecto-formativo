@@ -130,27 +130,30 @@ footer {
   gap: 12px;
   flex-wrap: wrap;
 }
-/* Tablets y móviles grandes */
-@media (width > 768px){
+@media (max-width: 480px) {
   .productos-content {
-    width: 80%;
-}
+    width: 90%;
+    padding: 14px;
+  }
+
+  .Nombre h2 {
+    font-size: var(--fs-md);
+  }
 
   .btn-comprar {
     width: 100%;
-}
+  }
 
   .botones {
-    gap: 10px;
-}
+    flex-direction: column;
+    gap: 8px;
+  }
 
   .descripcion {
-    text-align: justify;
-}
-}
-/* Pantallas grandes (escritorio) */
-@media (width > 768px) {
-  .productos-content {
-    width: 380px;
+    text-align: center;
+  }
+
+  .descripcion p {
+    font-size: var(--fs-xxs);
   }
 }

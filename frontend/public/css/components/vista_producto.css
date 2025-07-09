@@ -88,10 +88,3 @@ main {
     text-align: center;
   }
 }
-
-/* Pantallas grandes (desktop) */
-@media (width > 768px){
-  .producto-content {
-    width: 350px;
-  }
-}
