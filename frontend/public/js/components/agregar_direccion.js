@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function (){
-    const direction = document.querySelector(".form-container");
+    const direction = document.querySelector(".direction-content");
 
     if(direction){
-      fetch("/frontend/public/views/components/agregar_direccion.html")
+      fetch("/frontend/public/views/agregar_direccion.html")
         .then(response => response.text())
         .then(data => {
-          form.innerHTML = data;
+          direction.innerHTML = data;
         })
     .catch(error => console.log("Error", error));
     } 

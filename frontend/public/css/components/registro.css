@@ -49,11 +49,6 @@ body {
   font-size: var(--fs-xs);
 }
 
-.formulario__boton--agregar {
-  background-color: #004d26;
-  color: white;
-  margin-bottom: 5px;
-}
 
 .formulario__boton--registrar {
   background-color: #188038;
