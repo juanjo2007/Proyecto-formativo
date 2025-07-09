@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Producto - Tomate</title>
+
+  <!-- Bloque CSS corregido -->
+</head>
+<body>
+  <main>
+    <article class="producto-container">
+      <figure onclick="mostrarInfo()">
+        <img src="/frontend/public/img/tomate.AVIF" alt="Kilo Tomate o Papas">
+        <figcaption>Kilo Tomate</figcaption>
+      </figure>
+
+      <section>
+        <p class="precio">3.000$</p>
+        <button class="btn-comprar">Comprar</button>
+      </section>
+    </article>
+  </main>
+
+  <script>
+    function mostrarInfo() {
+      alert("Producto: Kilo Tomate\nPrecio: 3.000$\nImagen clickeada.");
+    }
+  </script>
+</body>
+</html>

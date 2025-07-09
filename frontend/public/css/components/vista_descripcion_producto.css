@@ -1,0 +1,120 @@
+body {
+  background-color: var(--primary-100);
+  font-family: var(--font-primary);
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  }
+
+header h2 {
+  margin-bottom: 20px;
+  font-size: var(--fs-md);
+  font-family: var(--font-primary);
+  font-weight: 700; /* Inter Bold */
+  color: var(--primary-950);
+  }
+
+main {
+  display: flex;
+  justify-content: center;
+  }
+
+article.producto-container {
+  border: 2px solid var(--gray-800);
+  width: 300px;
+  background-color: var(--white);
+  padding: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  }
+
+    figure {
+      margin: 0;
+      cursor: pointer;
+    }
+
+    figure img {
+      width: 100%;
+      height: 16rem;
+      object-fit: cover;
+      border-radius: 4px;
+      transition: transform 0.2s;
+    }
+
+    figure:hover img {
+      transform: scale(1.02);
+    }
+
+    figcaption {
+      font-size: var(--fs-xs);
+      margin: 10px 0 5px;
+      font-weight: 700; /* Inter Bold */
+      color: var(--gray-900);
+      font-family: var(--font-primary);
+    }
+
+    .precio {
+      font-size: var(--fs-sm);
+      font-weight: 600; /* Inter SemiBold */
+      margin-bottom: 10px;
+      color: var(--tertiary-900);
+      font-family: var(--font-primary);
+    }
+
+    .btn-comprar {
+      width: auto;
+      height: 2.5rem;
+      background-color: var(--secundary-700);
+      color: var(--white);
+      border: none;
+      border-radius: 0.625rem;
+      cursor: pointer;
+      font-family: var(--font-primary-950);
+      font-weight: 400;
+      font-size: var(--fs-xxs);
+    }
+
+    .descripcion {
+      margin-top: 10px;
+      text-align: justify;
+      font-size: var(--fs-xs);
+    }
+
+    .descripcion h3 {
+      font-size: var(--fs-sm);
+      color: var(--gray-900);
+      margin-bottom: 5px;
+    }
+
+    .sin-garantia {
+      font-size: var(--fs-xxs);
+      margin-top: 10px;
+      font-style: italic;
+      color: var(--gray-700);
+    }
+
+    .botones {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+
+    .btn-deshabilitar, .btn-habilitar {
+      width: 45%;
+      height: 2rem;
+      border: none;
+      border-radius: 0.5rem;
+      font-family: var(--font-primary);
+      font-size: var(--fs-xxs);
+      cursor: pointer;
+    }
+
+    .btn-deshabilitar {
+      background-color: var(--black);
+      color: var(--white);
+    }
+
+    .btn-habilitar {
+      background-color: var(--secundary-700);
+      color: var(--white);
+    }
