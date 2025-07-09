@@ -72,27 +72,6 @@ main {
 .btn-comprar:hover {
   background-color: var(--secundary-950);
 }
-
-/* ========== MEDIA QUERIES ========== */
-
-/* Dispositivos pequeños (móviles en vertical) */
-@media (max-width: 480px) {
-  .producto-content {
-    width: 90%;
-    padding: 12px;
-  }
-
-  .btn-comprar {
-    width: 100%;
-    text-align: center;
-  }
-
-  .producto-container figcaption,
-  .precio {
-    text-align: center;
-  }
-}
-
 /* Tablets o móviles en horizontal */
 @media (width > 768px){
   .producto-content {
