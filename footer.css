@@ -1,0 +1,58 @@
+/* Colores y fuentes principales */
+:root {
+  --color-fondo-footer: #9b4e3c;
+  --color-blanco: #ffffff;
+  --fuente-principal: Arial, sans-serif;
+  --tamaño-icono: 20px;
+}
+
+/* Parte general del footer */
+.footer {
+  background-color: var(--color-fondo-footer);
+  color: var(--color-blanco);
+  font-family: var(--fuente-principal);
+  padding: 15px 20px;
+}
+
+/* Contenedor del contenido */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Texto del footer */
+.footer-container p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Íconos de redes sociales */
+.social-icons {
+  display: flex;
+  gap: 8px; /* Espacio entre los íconos */
+}
+
+.social-icons img {
+  width: var(--tamaño-icono);
+  height: var(--tamaño-icono);
+  background-color: var(--color-blanco);
+  border-radius: 4px;
+  padding: 2px;
+  transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1); /* Aumenta ligeramente al pasar el mouse */
+}
+
+/* Diseño para pantallas pequeñas (celulares) */
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+}
